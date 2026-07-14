@@ -248,7 +248,7 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: var(--radius-l);
   overflow: hidden;
   aspect-ratio: 4/5;
-  background: linear-gradient(180deg, var(--teal-900) 0%, var(--teal-700) 60%, var(--gold) 150%);
+  background: transparent;
 }
 .hero-art .img-slot { position: absolute; inset: 0; }
 .img-placeholder {
@@ -258,14 +258,15 @@ button { font-family: inherit; cursor: pointer; }
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 24px;
+  padding: 0;
   color: rgba(255,255,255,.75);
   font-family: var(--font-mono);
   font-size: 12px;
   letter-spacing: .05em;
   text-transform: uppercase;
-  border: 1px dashed rgba(255,255,255,.35);
+  border: none;
   border-radius: inherit;
+  background: transparent;
 }
 
 @media (max-width: 900px) {
